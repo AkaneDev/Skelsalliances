@@ -1,0 +1,14 @@
+name: Skelsalliances
+version: '1.1.1'
+main: au.akanedev.skelsalliances.Skelsalliances
+api-version: '1.21'
+commands:
+  declare:
+    description: Declare an alliance
+    usage: /declare <player> <status>
+  whois:
+    description: Check the alliances of a player
+    usage: /whois <player>
+  alliances:
+    description: Over Arching Command
+    usage: /alliances <declare/whois>
